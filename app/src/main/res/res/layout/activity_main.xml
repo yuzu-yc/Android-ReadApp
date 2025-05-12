@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context=".MainActivity">
+    <!-- Fragment 容器 -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavigation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:elevation="4dp"
+        android:layout_gravity="bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- 书架按钮 -->
+        <LinearLayout
+            android:id="@+id/navBookshelf"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="5dp"
+            >
+
+            <ImageView
+                android:id="@+id/iconBookshelf"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/bookshelf"
+               />
+
+            <TextView
+                android:id="@+id/textBookshelf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="书架"
+                android:textSize="15sp"
+                android:textColor="#333333"
+                />
+        </LinearLayout>
+
+        <!-- 书城按钮 -->
+        <LinearLayout
+            android:id="@+id/navBookstore"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/iconBookstore"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/bookcity"
+
+               />
+
+            <TextView
+                android:id="@+id/textBookstore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="书城"
+                android:textSize="15sp"
+                android:textColor="#333333" />
+        </LinearLayout>
+
+        <!-- Vip按钮 -->
+        <LinearLayout
+            android:id="@+id/navVip"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/iconVip"
+                android:layout_width="24dp"
+                android:layout_height="29dp"
+                android:src="@drawable/vip" />
+
+            <TextView
+                android:id="@+id/textVip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="会员"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <!-- 我的按钮 -->
+        <LinearLayout
+            android:id="@+id/navProfile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/iconProfile"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/me"
+               />
+
+            <TextView
+                android:id="@+id/textProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的"
+                android:textSize="15sp"
+                android:textColor="#333333" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

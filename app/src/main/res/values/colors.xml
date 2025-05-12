@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- 红色 -->
+    <color name="red">#FFFF0000</color>
+
+    <!-- 绿色 -->
+    <color name="green">#FF00FF00</color>
+
+    <!-- 蓝色 -->
+    <color name="blue">#FF0000FF</color>
+
+    <!-- 黄色 -->
+    <color name="yellow">#FFFFFF00</color>
+
+
+    <!-- 橙色 -->
+    <color name="orange">#FFFFA500</color>
+
+    <!-- 灰色 -->
+    <color name="gray">#FF808080</color>
+
+    <!-- 粉色 -->
+    <color name="pink">#FFFFC0CB</color>
+
+    <!-- 棕色 -->
+    <color name="brown">#FFA52A2A</color>
+
+    <!-- 青色 -->
+    <color name="cyan">#FF00FFFF</color>
+
+    <!-- 深灰色 -->
+    <color name="dark_gray">#FFA9A9A9</color>
+
+    <!-- 浅灰色 -->
+    <color name="light_gray">#FFD3D3D3</color>
+
+    <!-- 淡蓝色 -->
+    <color name="light_blue">#FFADD8E6</color>
+
+
+    <color name="colorPage1">#F4F4F4</color> <!-- 红色 -->
+<!--    <color name="colorPage2">#C8E6C9</color> &lt;!&ndash; 绿色 &ndash;&gt;-->
+<!--    <color name="colorPage3">#BBDEFB</color> &lt;!&ndash; 蓝色 &ndash;&gt;-->
+<!--    <color name="colorPage4">#FFF59D</color> &lt;!&ndash; 黄色 &ndash;&gt;-->
+<!--    <color name="colorPage5">#FFEB3B</color> &lt;!&ndash; 明黄色 &ndash;&gt;-->
+<!--    <color name="colorPage6">#E1BEE7</color> &lt;!&ndash; 紫色 &ndash;&gt;-->
+<!--    <color name="colorPage7">#FF7043</color> &lt;!&ndash; 橙色 &ndash;&gt;-->
+<!--    <color name="colorPage8">#FFD54F</color> &lt;!&ndash; 金色 &ndash;&gt;-->
+<!--    <color name="colorPage9">#81C784</color> &lt;!&ndash; 浅绿色 &ndash;&gt;-->
+
+
+</resources>

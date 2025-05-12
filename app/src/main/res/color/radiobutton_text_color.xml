@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 选中时，字体颜色为黑色 -->
+    <item android:color="@android:color/black" android:state_checked="true"/>
+    <!-- 未选中时，字体颜色为灰色 -->
+    <item android:color="@android:color/darker_gray"/>
+</selector>
