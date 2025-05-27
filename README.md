@@ -5,6 +5,8 @@
 由于我是硬编码URL路径或页面结构，网站改版、路径变动都很常见，导致打不开相关。后面有时间会更新。
 下面是替换暂时即可正常使用
 BsTablefragment与shelf里用以下替换
+
+
 public String getHtml(String imageUrl) {
         // 示例 imageUrl: http://www.xbiqugu.la/files/article/image/7/7004/7004s.jpg
         String[] parts = imageUrl.split("/");
@@ -16,8 +18,9 @@ public String getHtml(String imageUrl) {
         return "";
     }
 
-    
-    Bookfetcher中用以下    //以下是改的新的后
+Bookfetcher中用以下    //以下是改的新的后
+
+
 private String getCover(String url) {
     try {
         // 获取最后一部分 bookId，例如 http://www.xbiqugu.net/xuanhuan/7004/ -> 7004
